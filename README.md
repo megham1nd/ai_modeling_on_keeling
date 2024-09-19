@@ -111,57 +111,6 @@ Another method for setting code environment for VSCode on Keeling:
 If you want to use VS Code on Keeling, you can download [VS Code](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://code.visualstudio.com/&ved=2ahUKEwiUyZWKjKKIAxUx4MkDHc7yKgwQFnoECAgQAQ&usg=AOvVaw15O90sm1ios8AUpw56hCml) on its page first. Then search for SSH in the VS Code Extensions Marketplace. Find the Remote-SSH extension published by Microsoft and click 'Install' to install it. After installation, find the icon on the left side and click it. Click the `+` icon in the upper right corner, then enter `username@server_IP_address` and press Enter. You will be prompted to enter the password. Simply input the password corresponding to the username you just entered.
 
 
-## Running the AI Models
-
-
-
-## Appendix: References for Project
-
-### Exporting Conda Environment
-
-- Activate environment you want to export with:
-
-```
-conda activate myenv
-```
-
-- Export packages with:
-
-```
-conda env export > environment.yml
-```
-
-- To read out the environment file, use cat:
-
-```
-cat environment.yml
-```
-
-- You can copy and paste the output from here!
-
-
-### Using GitHub
-
-- Create a GitHub repository on github.com – this is your remote repository
-- Clone your remote repository in your working directory by using the following command
-```
-git clone <repository_clone_path>
-```
-- Move files you want to add into newly created git folder
-- Add those files
-```
-git add .
-```
-- Commit the files you just added:
-```
-git commit -m “Inital commit”
-```
-- Push to remote repository
-```
-git push origin main
-```
-- When prompted for your password, make sure you use a Personal Access Token, NOT your normal GitHub password
-
 ### Base Environment: CUDA & CuDNN Installation
 
  Lots of AI programs (for example, earth2mip) depend on CUDA & CuDNN to accelerate computing. CUDA is a platform and programming model for CUDA-enabled GPUs. The Nvidia CUDA Deep Neural Network library (cuDNN) ia a GPU-accelerated library of primitives for deep neural networks.
