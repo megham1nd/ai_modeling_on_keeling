@@ -219,6 +219,7 @@ dependencies:
       - shapely==2.0.6
       - torch==2.4.1
       - torch-harmonics==0.7.1
+      - torchvision==0.19.1
       - triton==3.0.0
       - typing-extensions==4.12.2
 prefix: /data/keeling/a/megha4/miniconda3/envs/earth2mip_env
