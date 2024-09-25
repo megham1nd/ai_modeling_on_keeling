@@ -260,4 +260,3 @@ dependencies:
       - yarl==1.9.4
       - zarr==2.18.2
       - zipp==3.20.1
-prefix: /data/keeling/a/megha4/miniconda3/envs/neuralgcm_env
