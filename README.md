@@ -24,7 +24,7 @@ Miniconda is important for package management – a lot of these AI models use a
 ```
 qlogin -p l40s -N 1 -n 96 --gres=gpu:L40S:1 --mem=250000 --time=48:00:00
 ```
-MAKE SURE YOU ARE IN A GPU NODE OTHERWISE EARTH2MIP WILL NOT WORK AND NEURALGCM WILL TAKE A VERY LONG TIME.
+MAKE SURE YOU ARE IN THE L40S GPU NODE OTHERWISE EARTH2MIP WILL NOT WORK AND NEURALGCM WILL TAKE A VERY LONG TIME.
 
 - Activate conda installation:
 
