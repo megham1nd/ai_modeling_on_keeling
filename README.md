@@ -49,7 +49,7 @@ cd ai_modeling_on_keeling
 - Create your conda environments using the .yml files in the folder – make sure you are using the correct file! Match your AI model AND your system type to the correct file
 
 ```
-conda create -n name_of_your_environment -f=your_environment_file.yml python=3.10
+conda env create -n name_of_your_environment -f=your_environment_file.yml python=3.10
 ```
 
 - Activate the environment you just created
