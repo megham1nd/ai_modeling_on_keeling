@@ -222,4 +222,3 @@ dependencies:
       - torchvision==0.19.1
       - triton==3.0.0
       - typing-extensions==4.12.2
-prefix: /data/keeling/a/megha4/miniconda3/envs/earth2mip_env
