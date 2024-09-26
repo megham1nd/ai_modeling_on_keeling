@@ -220,6 +220,8 @@ dependencies:
       - humanize==4.10.0
       - importlib-resources==6.4.4
       - jax==0.4.31
+      - jax-cuda12-pjrt==0.4.31
+      - jax-cuda12-plugin==0.4.31
       - jaxlib==0.4.31
       - jmp==0.0.4
       - joblib==1.4.2
