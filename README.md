@@ -4,7 +4,7 @@ Author: Megha Rao (megha4@illinois.edu), Yudi Mao (yudimao2@illinois.edu), Mingf
 
 Instructions and files necessary for setting up Google's NeuralGCM and NVIDIA's Earth2Mip AI Model Forecasting tools on UIUC's Keeling supercomputer. This document could help you prepare to use GPU on Keeling. We providded two examples (earth2mip & NeuralGCM) to help you running the models. 
 
-Instructions are available both below and interactively on this url(Google Sheet)[https://docs.google.com/spreadsheets/d/1Arf-V4fiPaCJ9Bnn5F7BpeVwGVmmfqO9DlpeErKJH3o/edit?usp=sharing]
+Instructions are available both below and interactively on this [Google Sheet](https://docs.google.com/spreadsheets/d/1Arf-V4fiPaCJ9Bnn5F7BpeVwGVmmfqO9DlpeErKJH3o/edit?usp=sharing)
 
 ## Setting up
 - Log into Keeling:
